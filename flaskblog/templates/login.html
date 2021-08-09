@@ -40,12 +40,12 @@
                 {{ form.submit(class="btn btn-outline-info") }}
             </div>
             <small class="text-muted ml-2"></small>
-                <a href="{{ url_for('reset_request') }}">Forgot Password?</a>
+                <a href="{{ url_for('users.reset_request') }}">Forgot Password?</a>
         </form>
     </div>
     <div class="border-top pt-3">
         <small class="text-muted">
-            New to Flask Blog? <a class="ml-2" href="{{ url_for('register') }}">Create an Account</a>
+            New to Flask Blog? <a class="ml-2" href="{{ url_for('users.register') }}">Create an Account</a>
         </small>
 
     </div>
